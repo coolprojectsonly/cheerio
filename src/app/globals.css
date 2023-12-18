@@ -1,0 +1,26 @@
+body {
+  background-color: yellow;
+  color: green;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.element {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
